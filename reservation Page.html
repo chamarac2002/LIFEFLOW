@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Page</title>
+
+    <link rel="stylesheet" href="reservation page style.css">
+</head>
+
+<body>
+
+<img src="images\logo.png" class="logo" >
+
+    <h1 class="logo_topic">LIFEFLOW</h1>
+    <h2 class="logo_sub_topic">Blood Donation System</h2>
+
+    <nav class="navbar">
+        <a href="home page.html">Home</a>
+        <a href="about us page.html">About Us</a>
+        <a href="donor home page.html">Donor</a>
+        <a href="donation procedure.html">Donations</a>
+        <a href="login page.php">Login</a>
+        <a href="FAQs page.html">FAQs</a>
+        <a href="staff registration.php">Staff REG</a>
+        <span></span>
+    </nav>
+
+<hr class="topic_line">
+
+
+<center>
+    <section>
+        <form method="post" action="Appoinment Reservation.php">
+                <div class="form-box">
+                    <div class="form value">
+                        <br>
+
+                        <h1>Appoinment Reservation</h1>
+
+                        <br>
+
+                        <div class="inputbox">
+                            <label for="name_with_initials">Name with Initials</label>
+                            <input type="Name with initials" required name="name_with_initials">
+                        </div>
+                
+                        <br>
+                
+                        <div class="inputbox">
+                            <label for="donor_id">Donar ID</label>
+                            <input type="donor id" name="donor_id" required>
+                        </div>
+                
+                        <br>
+                
+                        <div class="inputbox">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="phone number" name="phone_number" required>
+                        </div>
+                
+                        <br>
+                
+                        <div class="inputbox">
+                            <label for="donation_date">Donation Date</label>
+                            <input type="datetime-local" name="donation_date" required>
+                        </div>
+                    </div>
+                
+                    <br>
+                
+                    <div class="inputbox">
+                        <label for="center">Choose The Center</label>
+                            <select name="center">
+                                <option>Colombo 07</option>
+                                <option>Panadura</option>
+                                <option>Kiribathgoda</option>
+                                <option>Anuradhapura</option>
+                                <option>Gampaha</option>
+                                <option>Nugegoda</option>
+                                <option>Kandy</option>
+                            </select>
+                    </div>
+                    
+                    <br>
+                    <br>
+
+                    <button class="s1">Submit</button>
+                </div>
+                <br>
+                 
+            </form>     
+    </section>
+</center>
+
+<hr class="footer_line">
+
+<div class="footer">
+    <a href="https://www.who.int/" target="_blank">
+    <button type="button" class="help_button">Help and Support</button>
+    </a>
+
+    <div class="fb_icon">
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"></a>
+    </div>
+
+    <div class="insta_icon">
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png"></a>
+    </div>
+
+    <div class="twitt_icon">
+        <a href="https://www.twitter.com/" target="_blank"><img src="images/Twitter.png"></a>
+    </div>
+
+    <div class="yt_icon">
+        <a href="https://www.youtube.com/watch?v=ku0zMBVjjAs" target="_blank"><img src="images/yt.png"></a>
+    </div>
+</div>
+
+<div class="contacts">
+    <h1 class="Genaral">Genaral: +94225 225 25</h1>
+    <h1 class="Donor_section">Donor Section: +94522 522 52</h1>
+</div>
+
+</body>
+</html>

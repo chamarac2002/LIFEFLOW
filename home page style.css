@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body{
+    background-image: url("images/bga1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+.logo_topic{
+    font-family: oswald;
+    font-size: 50px;
+    margin-left: 12%;
+    margin-top: -7.5%;
+    color: rgb(255, 255, 255);
+}
+
+.logo_sub_topic{
+    font-family: oswald;
+    font-size: 20px;
+    margin-left: 12%;
+    margin-top: -3%;
+    color: rgb(255, 0, 0);
+}
+
+.navbar{
+    margin-left:40%;
+    margin-top:-5%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: oswald;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 5vh;
+
+    position:relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 800px;
+    height: 50px;
+    display: flex;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 45px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 108, 175));
+    border-radius: 8px;
+    transition: .5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0;
+    width: 400;
+}
+
+nav a:nth-child(2):hover~span{
+    left: 150px;
+    width: 110px;
+}
+
+nav a:nth-child(3):hover~span{
+    left: 284px;
+    width: 110px;
+}
+
+nav a:nth-child(4):hover~span{
+    left: 415px;
+    width: 115px;
+}
+
+nav a:nth-child(5):hover~span{
+    left: 555px;
+    width: 110px;
+}
+
+nav a:nth-child(6):hover~span{
+    left: 690px;
+    width: 110px;
+}
+
+.topic_line{
+    border: none;
+    margin-top: 3%;
+    border-top: 7px solid rgb(0, 108, 175);
+    border-radius: 10px;
+}
+
+.help_button{
+    box-shadow:0 0 15px rgb(0, 108, 175),0 0 25px rgb(0, 108, 175);
+    border: none;
+    width: 160px;
+    font-family: oswald;
+    padding: 10px 12px;
+    color: #ffffff;
+    background-color:rgb(0, 108, 175);
+    border-radius: 20px;
+}
+
+.help_button:hover{
+    box-shadow: 0 0 45px rgb(0, 108, 175);
+}
+
+.fb_icon{
+    margin-left: 185px;
+    margin-top: -45px;
+}
+
+.insta_icon{
+    margin-left: 250px;
+    margin-top: -51px;
+}
+
+.twitt_icon{
+    margin-left: 316px;
+    margin-top: -51px;
+}
+
+.yt_icon{
+    margin-left: 385px;
+    margin-top: -51px;
+}
+
+.footer{
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+.footer_line{
+    border: none;
+    margin-top: 3%;
+    border-top: 7px solid rgb(0, 108, 175);
+    border-radius: 10px;
+}
+
+.front_banners{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    transition: 1s;
+}
+
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.news1topic{
+    padding-left: 10px;
+    height: 43px;
+    width: 428px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(0, 108, 175);
+    font-family: oswald;
+    color: #ffffff;
+    margin-left: 1.5%;
+}
+
+.news1{
+    padding: 20px;
+    font-family: oswald;
+    color: rgb(0, 108, 175);
+    font-size: 23px;
+    width: 400px;
+    margin-left: 1.5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.news2topic{
+    padding-left: 10px;
+    height: 43px;
+    width: 428px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(0, 108, 175);
+    font-family: oswald;
+    color: #ffffff;
+    margin-left: 1.5%;
+}
+
+.news2{
+    padding: 20px;
+    font-family: oswald;
+    color: rgb(0, 108, 175);
+    font-size: 23px;
+    width: 400px;
+    margin-left: 1.5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.news3topic{
+    padding-left: 10px;
+    height: 43px;
+    width: 428px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(0, 108, 175);
+    font-family: oswald;
+    color: #ffffff;
+    margin-left: 2.5%;
+}
+
+.news3{
+    padding: 20px;
+    font-family: oswald;
+    color: rgb(0, 108, 175);
+    font-size: 23px;
+    width: 400px;
+    margin-left: 2.5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.newsfeed2_align{
+    margin-left: 34.2%;
+    margin-top: -23.1%;
+}
+
+.newsfeed3_align{
+    margin-left: 68%;
+    margin-top: -23.2%;
+}
+
+.footer_banners{
+    width: 60%;
+    padding: 20px;
+    margin: 100px auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.f_box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    transition: 1s;
+}
+
+.f_box img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.f_box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.contacts{
+    width: 270px;
+    height: 100px;
+    font-size: 10px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 108, 175);
+    font-family: oswald;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 81%;
+    margin-top: -7.5%;
+}
